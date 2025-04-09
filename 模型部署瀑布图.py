@@ -59,7 +59,6 @@ feature_ranges = {
     "侵入性反刍性沉思": {"type": "numerical", "min": 0, "max": 30, "default": 0},
     "目的性反刍性沉思": {"type": "numerical", "min": 0, "max": 28, "default": 0},
     "心理弹性": {"type": "numerical", "min": 6, "max": 30, "default": 6},
-    "家庭支持": {"type": "numerical", "min": 0, "max": 10, "default": 0},
 }
 
 # 英文特征名称
@@ -70,7 +69,7 @@ feature_names = [
     "Feeding Method", "Newborn Defects or Diseases", "Monthly Per Capita Family Income", "Painless Childbirth",
     "Intrapartum Pain", "Postpartum Pain", "Postpartum Baby Care Method", "Sleep Quality", "Nighttime Sleep Duration",
     "Fatigue Level", "Physical Activity Level During Pregnancy", "Depression", "Anxiety", "Intrusive Rumination",
-    "Deliberate Rumination", "Resilience", "Family Support"
+    "Deliberate Rumination", "Resilience"
 ]
 
 # 动态生成输入项
