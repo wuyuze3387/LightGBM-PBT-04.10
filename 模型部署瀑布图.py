@@ -68,7 +68,7 @@ feature_names = [
     "Experience of Pregnancy Termination", "Gestational Week", "Pregnancy Complications", "Pregnancy Comorbidities",
     "Feeding Method", "Newborn Defects or Diseases", "Monthly Per Capita Family Income", "Painless Childbirth",
     "Intrapartum Pain", "Postpartum Pain", "Postpartum Baby Care Method", "Sleep Quality", "Nighttime Sleep Duration",
-    "Fatigue Level", "Physical Activity Level During Pregnancy", "Depression", "Anxiety", "Intrusive Rumination",
+    "Fatigue Level", "Physical Activity Level During Pregnancy", "抑郁", "Anxiety", "Intrusive Rumination",
     "Deliberate Rumination", "Resilience"
 ]
 
