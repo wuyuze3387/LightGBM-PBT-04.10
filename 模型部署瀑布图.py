@@ -22,7 +22,7 @@ model_path = "LGBMRegressor.pkl"
 model = joblib.load(model_path)
 
 # 设置页面配置和标题
-st.set_page_config(layout="wide", page_title="轻量级梯度提升机回归模型预测与 SHAP 可视化", page_icon="💕👩‍⚕️🏥")
+st.set_page_config(layout="wide", page_title="回归模型预测与 SHAP 可视化", page_icon="💕👩‍⚕️🏥")
 st.title("💕👩‍⚕️🏥 轻量级梯度提升回归模型预测与 SHAP 可视化")
 st.write("通过输入所有变量的值进行单个样本分娩心理创伤的风险预测，可以得到该样本罹患分娩心理创伤的概率，并结合 SHAP 瀑布图分析结果，有助于临床医护人员了解具体的风险因素和保护因素。")
 
