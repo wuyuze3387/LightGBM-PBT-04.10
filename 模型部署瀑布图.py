@@ -97,9 +97,6 @@ features = np.array([feature_values])
 
 # 预测与 SHAP 可视化
 if st.button("预测"):
-    # 模型预测
-    predicted_value = model.predict(features)[0]
-    st.write(f"Predicted 分娩心理创伤 score: {predicted_value:.2f}%")
 
     # SHAP 解释器
     explainer = shap.TreeExplainer(model)
